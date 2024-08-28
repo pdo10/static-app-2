@@ -1,0 +1,40 @@
+/*CSS RESET*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#full-course {
+    height: 50vh;
+    object-fit: cover;
+}
+
+.card-group-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px; /* Adjust gap as needed */
+}
+.card-group-scroll .card {
+    flex: 0 0 auto; /* Prevent cards from shrinking */
+    width: 250px; /* Adjust width as needed */
+}
+/* Hide scrollbar for a cleaner look */
+.card-group-scroll::-webkit-scrollbar {
+    display: none;
+}
+.card-group-scroll {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+#contact-form {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.20),
+		rgba(0, 0, 0, 0.80)
+	),
+		url("./images/cheese.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+}
